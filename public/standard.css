@@ -1,0 +1,95 @@
+body {
+    background-color: #f0efeb;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    font-family: "Oswald", "Alternate Gothic", "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 2vw;
+
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 4fr 1fr;
+
+    padding: 1.2vw;
+    gap: 2vw;
+    
+}
+
+.container div {
+    padding: 2vw;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 2vw;
+}
+
+ul button {
+    background-color: #e07a5f;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.todo-list {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+
+    background-color: #fad2e1;
+}
+
+.done {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 3;
+    text-align: center;
+
+    background-color: #bee1e6;
+}
+
+.add-task-box {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-content: center;
+    font-size: 1.5vw;
+    background-color: #dfd2dd;
+}
+
+.add-task-box input {
+    border: none;
+}
+
+.add-task-box button {
+    background-color: #2a9d8f;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin-top: 2vh;
+}
+
+.footer {
+    font-size: small;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

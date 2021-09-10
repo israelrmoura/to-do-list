@@ -1,0 +1,25 @@
+body {
+    align-self: center;
+    font-family: "Oswald", "Alternate Gothic", "Open Sans", sans-serif;
+    justify-content: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul li {
+    padding: 5px;
+    margin: 3px 3px 3px 3px;
+}
+
+label {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    margin: 3px 3px 3px 3px;
+}
+
+input {
+    margin: 3px 3px 3px 10px;
+    padding: 2px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Lista de tarefas a fazer - Israel Rocha Moura</title>
+		<link href="standard.css" rel="stylesheet"> <!--Stylesheet usada para a apresentação da página-->
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="header">
+				<h1>Tarefas a fazer</h1>
+			</div>
+			
+			<div class="add-task-box">
+				<label>Tarefa:</label> <input type="text" id="tarefa" name="tarefa_nome"> <br>
+				<label>Nome:</label> <input type="text" id="responsavel" name="responsavel_nome"> <br>
+				<label>Prazo:</label> <input type="text" id="prazo" name="prazo"> <br>
+				<button id="adicionar">Adicionar tarefa</button>
+			</div>
+			
+			<div class="todo-list">
+				<h2>A fazer</h2>
+				<ul id="a-fazer">
+				</ul>
+			</div>
+			
+			<div class="done">
+				<h2>Feitas</h2>
+				<ul id="feitas">
+				</ul>
+			</div>
+
+			<div class="footer">
+				<p>Aluno: Israel Rocha Moura (20190113487)</p>
+			</div>
+
+		</div>
+
+		<!--Script usado para a lista de tarefas a fazer-->
+		<script src="to-do.js"></script>
+
+	</body>
+</html>
