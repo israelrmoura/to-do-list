@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Lato:wght@100&display=swap');
+
 body {
     background-color: #f0efeb;
     margin: 0;
@@ -9,7 +11,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
 
-    font-family: "Oswald", "Alternate Gothic", "Open Sans", sans-serif;
+    font-family: 'Cormorant Garamond', serif;;
     font-weight: lighter;
     font-size: 2vw;
 
@@ -31,6 +33,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     text-align: left;
+    font-family: 'Cinzel', serif;
 }
 
 ul {
@@ -45,6 +48,7 @@ ul button {
     color: white;
     text-align: center;
     display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .todo-list {
@@ -86,6 +90,7 @@ ul button {
     display: inline-block;
     font-size: 1.5vw;
     margin-top: 2vh;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .footer {
