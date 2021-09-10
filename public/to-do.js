@@ -1,5 +1,4 @@
 // Arquivo que contém o código da lista de tarefas a fazer.
-const fs = require('fs');
 
 // Variáveis para input na página
 var tarefaInput = document.getElementById("tarefa");
